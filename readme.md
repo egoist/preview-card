@@ -28,6 +28,10 @@ const imageBuffer = await getImage({
 await stopBrowser()
 ```
 
+## Inspiration
+
+Thanks to [Mugshot Bot](https://www.mugshotbot.com/) for the original design inspiration.
+
 ## License
 
 MIT &copy; [EGOIST](https://github.com/sponsors/egoist)
