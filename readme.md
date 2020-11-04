@@ -2,7 +2,7 @@
 
 Customizable social media preview image, like this one:
 
-![preview](./foo.jpg)
+<img src="./foo.jpg" alt="preview" width="500">
 
 ## Install
 
