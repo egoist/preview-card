@@ -1,0 +1,34 @@
+{
+  "name": "@egoist/preview-card",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "description": "Customizable social media preview image",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egoist/preview-card"
+  },
+  "scripts": {
+    "example": "node -r sucrase/register example",
+    "build": "tsup src/index.ts --format esm,cjs --dts --legacy-output",
+    "test": "npm run example",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@egoist/html-to-image": "^1.1.0"
+  },
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0",
+    "prettier": "^2.1.2",
+    "tsup": "^3.7.1",
+    "typescript": "^4.0.5"
+  }
+}
