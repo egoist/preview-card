@@ -7,6 +7,9 @@
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "preview-card": "./dist/cli.js"
+  },
   "description": "Customizable social media preview image",
   "files": [
     "dist"
@@ -18,12 +21,13 @@
   },
   "scripts": {
     "example": "node -r sucrase/register example",
-    "build": "tsup src/index.ts --format esm,cjs --dts --legacy-output",
+    "build": "tsup src/index.ts src/cli.ts --format esm,cjs --dts --legacy-output",
     "test": "npm run example",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@egoist/html-to-image": "^1.1.0"
+    "@egoist/html-to-image": "^1.1.0",
+    "minimost": "^1.2.0"
   },
   "devDependencies": {
     "@egoist/prettier-config": "^0.1.0",

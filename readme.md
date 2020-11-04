@@ -28,6 +28,15 @@ const imageBuffer = await getImage({
 await stopBrowser()
 ```
 
+## CLI Usage
+
+```bash
+preview-card out.png --title title --domain domain --desc description
+
+# All flags
+preview-card --help
+```
+
 ## Inspiration
 
 Thanks to [Mugshot Bot](https://www.mugshotbot.com/) for the original design inspiration.
