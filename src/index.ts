@@ -45,7 +45,7 @@ export const getImage = async (options: Options) => {
   }
   .card:before {
     position: absolute;
-    height: 6px;
+    height: 15px;
     background: ${themeColor};
     content: '';
     display: block;
