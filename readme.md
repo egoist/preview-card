@@ -2,7 +2,7 @@
 
 Customizable social media preview image, like this one:
 
-<img src="./foo.jpg" alt="preview" width="500">
+<img src="https://user-images.githubusercontent.com/8784712/98120564-11d02900-1ee9-11eb-9574-d243e617f682.png" alt="preview" width="600">
 
 ## Install
 
